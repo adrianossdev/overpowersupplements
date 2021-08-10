@@ -1,0 +1,53 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #F5F5F5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+.area-cabecalho{
+	background-color: black;
+	height: 90px;
+	text-align: center;
+}
+nav{
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.coluna-principal{
+	height: 800px;
+	width: 1000px;
+	background-color: white;
+	margin: auto;
+	text-align: center;
+}
+.titulo-conteudo{
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+}
+
+footer{
+	float: bottom;
+	background-color: white;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 40px;
+	}
+a:link, a:visited{
+	color: black;
+}
+a:hover{
+	background-color: black;
+	color: orange;
+}
