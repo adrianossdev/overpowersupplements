@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>OP Suplementos - Produtos</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+<header class="area-cabecalho"><img src="img/logo.png"></header>
+<nav>
+		 <a href="index.html">Início</a> 
+		 <a href="produtos.html"> Produtos</a>
+		 <a href="sobre.html">Sobre</a>   
+		 <a href="contato.html">Contato</a>  
+		 <a href="login.html">Login</a>
+</nav>
+<div class="coluna-principal">
+<h1 class="titulo-conteudo">Cadastrar produto</h1>
+<br>
+
+<div class="novo_produto">
+		<h2>Novo produto</h2><br>
+		Nome: <input type="text" id="prod_nome"><br><br>
+		Tipo: <input type="text" id="prod_tipo"> <br><br>
+		Marca: <input type="text" id="prod_marca"><br><br>
+		Preço: <input type="text" id="prod_preco"><br><br>
+		<textarea placeholder="Detalhe a informação sobre o produto" rows="3" cols="40" maxlength="500" id="prod_descricao"></textarea><br><br>
+		<button type="button" onclick="cadastrarProdutoNovo()">Cadastrar</button>
+	</div>
+
+	<div class="produtos_recentes"></div>
+</div>
+
+	
+<footer>Desenvolvido por Adriano &copy 2021 </footer>
+
+</body>
+</html>

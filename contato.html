@@ -19,46 +19,43 @@
 <h1 class="titulo-conteudo">Preencha o formulário:</h1>
 	<form>
 	<br>
-	Nome: <input type="text" name="nome" placeholder="Informe seu nome aqui"><br><br>
-	Assunto: <input type="text" name="assunto" placeholder="Informe o assunto aqui"><br><br>
-	<input type="radio" name="genero" value="masculino"> Masculino
-	<input type="radio" name="genero" value="feminino"> Feminino
-	<br><br><br>
-	Estado: <select>
-		<option>Selecione aqui</option>
-		<option>AC</option>
-		<option>AL</option>
-		<option>AP</option>
-		<option>SP</option>
-		<option>AM</option>
-		<option>BA</option>
-		<option>CE</option>
-		<option>ES</option>
-		<option>GO</option>
-		<option>MA</option>
-		<option>MT</option>
-		<option>MS</option>
-		<option>MG</option>
-		<option>MG</option>
-		<option>PA</option>
-		<option>PB</option>
-		<option>PR</option>
-		<option>PE</option>
-		<option>PI</option>
-		<option>RJ</option>
-		<option>RN</option>
-		<option>RS</option>
-		<option>RO</option>
-		<option>RR</option>
-		<option>SC</option>
-		<option>SP</option>
-		<option>SE</option>
-		<option>TO</option>
-		<option>DF</option>
+	Nome: <input type="text" name="nome" placeholder="Informe seu nome aqui" id="nome" maxlength="30"><br><br>
+	Assunto: <input type="text" name="assunto" placeholder="Informe o assunto aqui" id="assunto"><br><br>
+	
+	<br>
+	Estado: <select id="estado">
+		<option value="">Selecione aqui</option>
+		<option value="ac">AC</option>
+		<option value="al">AL</option>
+		<option value="ap">AP</option>
+		<option value="am">AM</option>
+		<option value="ba">BA</option>
+		<option value="ce">CE</option>
+		<option value="es">ES</option>
+		<option value="go">GO</option>
+		<option value="ma">MA</option>
+		<option value="mt">MT</option>
+		<option value="ms">MS</option>
+		<option value="mg">MG</option>
+		<option value="pa">PA</option>
+		<option value="pb">PB</option>
+		<option value="pr">PR</option>
+		<option value="pe">PE</option>
+		<option value="pi">PI</option>
+		<option value="rj">RJ</option>
+		<option value="rn">RN</option>
+		<option value="rs">RS</option>
+		<option value="ro">RO</option>
+		<option value="rr">RR</option>
+		<option value="sc">SC</option>
+		<option value="sp">SP</option>
+		<option value="se">SE</option>
+		<option value="to">TO</option>
+		<option value="df">DF</option>
 	</select><br><br><br>
-	<textarea placeholder="Detalhe a informação" rows="10" cols="40" maxlength="500"></textarea>
+	<textarea placeholder="Detalhe a informação" rows="10" cols="40" maxlength="500" id="descricao"></textarea>
 	<br> <br> <br>
-	<button onclick="Enviar()"> Enviar</button>
+	<button type="button" onclick="enviarContato()"> Enviar</button>
 </div>
 
 </form>
